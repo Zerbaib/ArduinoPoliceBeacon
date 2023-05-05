@@ -22,3 +22,30 @@ void setup() {
     pinMode(r2, OUTPUT);
     pinMode(r3, OUTPUT);
 }
+
+// Loop
+void loop() {
+    digitalWrite(b1, HIGH);
+    digitalWrite(b2, HIGH);
+    digitalWrite(b3, HIGH);
+
+    digitalWrite(w1, HIGH);
+    digitalWrite(w2, HIGH);
+
+    digitalWrite(r1, LOW);
+    digitalWrite(r2, LOW);
+    digitalWrite(r3, LOW);
+
+    delay(1000)
+
+    digitalWrite(b1, LOW);
+    digitalWrite(b2, LOW);
+    digitalWrite(b3, LOW);
+
+    digitalWrite(w1, HIGH);
+    digitalWrite(w2, HIGH);
+
+    digitalWrite(r1, HIGH);
+    digitalWrite(r2, HIGH);
+    digitalWrite(r3, HIGH);
+}
