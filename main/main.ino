@@ -36,7 +36,7 @@ void loop() {
     digitalWrite(r2, LOW);
     digitalWrite(r3, LOW);
 
-    delay(1000)
+    delay(1000);
 
     digitalWrite(b1, LOW);
     digitalWrite(b2, LOW);
