@@ -10,3 +10,15 @@ const int w2 = 6;
 const int r1 = 7;
 const int r2 = 8;
 const int r3 = 9;
+
+// Init the Arduino
+void setup() {
+    pinMode(b1, OUTPUT);
+    pinMode(b2, OUTPUT);
+    pinMode(b3, OUTPUT);
+    pinMode(w1, OUTPUT);
+    pinMode(w2, OUTPUT);
+    pinMode(r1, OUTPUT);
+    pinMode(r2, OUTPUT);
+    pinMode(r3, OUTPUT);
+}
