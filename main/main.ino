@@ -48,4 +48,6 @@ void loop() {
     digitalWrite(r1, HIGH);
     digitalWrite(r2, HIGH);
     digitalWrite(r3, HIGH);
+
+    delay(1000);
 }
