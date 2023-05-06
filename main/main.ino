@@ -25,19 +25,7 @@ void setup() {
 
 // Loop
 void loop() {
-    digitalWrite(b1, HIGH);
-    digitalWrite(b2, HIGH);
-    digitalWrite(b3, HIGH);
-
-    digitalWrite(w1, HIGH);
-    digitalWrite(w2, HIGH);
-
-    digitalWrite(r1, LOW);
-    digitalWrite(r2, LOW);
-    digitalWrite(r3, LOW);
-
-    delay(1000);
-
+    step1();
     digitalWrite(b1, LOW);
     digitalWrite(b2, LOW);
     digitalWrite(b3, LOW);
@@ -51,3 +39,19 @@ void loop() {
 
     delay(1000);
 }
+
+void step1() {
+    digitalWrite(b1, HIGH);
+    digitalWrite(b2, HIGH);
+    digitalWrite(b3, HIGH);
+
+    digitalWrite(w1, HIGH);
+    digitalWrite(w2, HIGH);
+
+    digitalWrite(r1, LOW);
+    digitalWrite(r2, LOW);
+    digitalWrite(r3, LOW);
+
+    delay(1000);
+}
+
