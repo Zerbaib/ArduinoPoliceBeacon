@@ -25,6 +25,11 @@ void setup() {
 
 // Loop
 void loop() {
+    step1();
+    step2();
+}
+
+void step1() {
     digitalWrite(b1, HIGH);
     digitalWrite(b2, HIGH);
     digitalWrite(b3, HIGH);
@@ -37,7 +42,9 @@ void loop() {
     digitalWrite(r3, LOW);
 
     delay(1000);
+}
 
+void step2() {
     digitalWrite(b1, LOW);
     digitalWrite(b2, LOW);
     digitalWrite(b3, LOW);
