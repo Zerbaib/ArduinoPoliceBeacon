@@ -19,9 +19,6 @@ The sinification is:
 - ``2`` = Is the second traffic light
 - ``3`` = Is the third traffic light
 
-## Code acces
-This code is in **[This file](https://github.com/Zerbaib/ArduinoPoliceBeacon/blob/main/main/main.ino)**
-
 ### License
 ```
 MIT License
@@ -47,3 +44,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ```
+**[Here]()**
